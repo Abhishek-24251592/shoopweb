@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ABHI COMPUTERS & SAHAJ JAN SEWA KENDRA</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f5f5f5;
+}
+
+header{
+    background:#004AAD;
+    color:white;
+    padding:15px;
+    text-align:center;
+}
+
+nav{
+    background:#FF7A00;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    font-weight:bold;
+}
+
+.hero{
+    background:linear-gradient(rgba(0,74,173,.8),rgba(0,74,173,.8)),
+    url('banner.jpg');
+    background-size:cover;
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+.hero h1{
+    font-size:40px;
+}
+
+.section{
+    padding:40px 20px;
+}
+
+.section h2{
+    color:#004AAD;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    margin-bottom:20px;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:20px;
+}
+
+.gallery{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:15px;
+}
+
+.gallery img{
+    width:100%;
+    border-radius:10px;
+}
+
+.notice{
+    background:#fff3cd;
+    padding:15px;
+    margin:10px 0;
+    border-left:5px solid #FF7A00;
+}
+
+.contact{
+    background:#004AAD;
+    color:white;
+    padding:30px;
+    text-align:center;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+.whatsapp{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:#25D366;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:22px;
+}
+
+.callbtn{
+    position:fixed;
+    bottom:90px;
+    right:20px;
+    background:#004AAD;
+    color:white;
+    padding:15px;
+    border-radius:50%;
+    text-decoration:none;
+    font-size:22px;
+}
+
+ul{
+    padding-left:20px;
+}
+
+@media(max-width:768px){
+.hero h1{
+font-size:28px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>ABHI COMPUTERS & SAHAJ JAN SEWA KENDRA</h1>
+<p>Near Sita Indian Gas Agency, Sanstha Market, Kakrahi, Sitapur</p>
+</header>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#services">Services</a>
+<a href="#gallery">Gallery</a>
+<a href="#notice">Notice Board</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+<h1>सभी ऑनलाइन एवं सरकारी सेवाएं एक ही स्थान पर</h1>
+<p>PAN Card | Aadhaar Update | E-Shram | PM Kisan | Banking Services</p>
+</section>
+
+<section class="section" id="about">
+<h2>About Us</h2>
+<div class="card">
+<p>
+हम सभी प्रकार की ऑनलाइन, सरकारी, बैंकिंग एवं डिजिटल सेवाएं
+एक ही स्थान पर उपलब्ध कराते हैं।
+</p>
+</div>
+</section>
+
+<section class="section" id="services">
+<h2>Our Services</h2>
+<div class="scroll-text">
+    🎓 Scholarship Form Open | 🪪 PAN Card Apply | 💼 E-Shram Registration | 👨‍🌾 PM Kisan | 🏦 Banking Services Available | 🖨️ Wedding Card & Printing Services Available
+
+</div>
+
+<style>
+.scroll-text{
+    width:100%;
+    background:#004AAD;
+    color:#fff;
+    padding:12px 0;
+    font-size:22px;
+    font-weight:bold;
+    white-space:nowrap;
+    overflow:hidden;
+}
+
+.scroll-text::before{
+    content:"🎓 Scholarship Form Open | 🪪 PAN Card Apply | 💼 E-Shram Registration | 👨‍🌾 PM Kisan | 🏦 Banking Services Available | 🖨️ Wedding Card & Printing Services Available";
+    display:inline-block;
+    padding-left:100%;
+    animation:scroll-left 15s linear infinite;
+}
+
+@keyframes scroll-left{
+    0%{
+        transform:translateX(0);
+    }
+    100%{
+        transform:translateX(-100%);
+    }
+}
+</style>
+
+<div class="services">
+
+<div class="card">
+<h3>PAN CARD SERVICE (180Rs)</h3>
+<ul>
+<li>New PAN Card</li>
+<li>PAN Correction</li>
+<li>Instant PAN 100Rs</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>AADHAAR UPDATE </h3>
+<ul>
+<li>Address Update (200Rs)</li>
+<li>Mobile Update  (100Rs)</li>
+<li>pvc            (70Rs)</li>
+<li>Printout       (50Rs)</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>E-SHRAM CARD</h3>
+<ul>
+<li>New Registration (100Rs)</li>
+<li>Update Registration</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>ROJGAR SANGAM </h3>
+<ul>
+<li>Job Registration (500Rs)</li>
+<li>Resume Creation (100Rs)</li>
+<li>Employment Services (500Rs)</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>PM KISAN </h3>
+<ul>
+<li>Registration (200Rs)</li>
+<li>e-KYC (50Rs)</li>
+<li>Correction(2000Rs)</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>CERTIFICATE SERVICES</h3>
+<ul>
+<li>Income Certificate (60Rs)</li>
+<li>Caste Certificate (60Rs)</li>
+<li>Residence Certificate (60Rs)</li>
+<li>EWS Certificate(60Rs)</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>BANKING SERVICES</h3>
+<ul>
+<li>Fino Account Opening(200Rs se 1000Rs)</li>
+<li>AEPS </li>
+<li>Money Transfer </li>
+<li>Cash Withdrawal</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>CSC SERVICES</h3>
+<ul>
+<li>Bill Payment</li>
+<li>Recharge</li>
+<li>FASTag</li>
+<li>Insurance</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>COMPUTER SERVICES</h3>
+<ul>
+<li>Online Form Filling </li>
+<li>Printout</li>
+<li>Scanning</li>
+<li>Lamination</li>
+<li>PVC Card Printing</li>
+<li>Scholarship Form</li>
+<li>Admission Form</li>
+<li>Exam Form</li>
+<li>PAN Card</li>
+<li>Aadhaar Update</li>
+<li>Income / Caste / Residence Certificate</li>
+<li>PM Kisan</li>
+<li>E-Shram</li>
+<li>Ayushman Card</li>
+<li>Voter ID</li>
+<li>Driving Licence</li>
+<li>Email ID Creation</li>
+<li>Resume / CV</li>
+<li>Photo Editing</li>
+<li>Print Out</li>
+<li>Mobile Recharge</li>
+<li>Electricity Bill</li>
+<li>Money Transfer</li>
+<li>Banking Services</li>
+</ul>
+</div>
+
+
+<section class="printing-services">
+    <h2>💍 शादी कार्ड एवं प्रिंटिंग सेवाएं</h2>
+
+    <div class="service-container">
+
+        <div class="service-box">
+            <h3>💌 शादी कार्ड डिजाइन</h3>
+            <p>सभी प्रकार के आकर्षक एवं आधुनिक शादी कार्ड डिजाइन उपलब्ध हैं।</p>
+        </div>
+
+        <div class="service-box">
+            <h3>🖨️ कार्ड प्रिंटिंग</h3>
+            <p>कलर एवं ब्लैक एंड व्हाइट प्रिंटिंग की सुविधा उपलब्ध।</p>
+        </div>
+
+        <div class="service-box">
+            <h3>📜 निमंत्रण पत्र</h3>
+            <p>शादी, जन्मदिन, वर्षगांठ एवं अन्य कार्यक्रमों के निमंत्रण पत्र।</p>
+        </div>
+
+        <div class="service-box">
+            <h3>🎂 बर्थडे कार्ड</h3>
+            <p>बर्थडे पार्टी एवं विशेष अवसरों के लिए कस्टम कार्ड।</p>
+        </div>
+
+        <div class="service-box">
+            <h3>🏢 विजिटिंग कार्ड</h3>
+            <p>सभी प्रकार के बिजनेस एवं प्रोफेशनल विजिटिंग कार्ड।</p>
+        </div>
+
+        <div class="service-box">
+            <h3>📄 लेटरहेड एवं बिल बुक</h3>
+            <p>ऑफिस एवं व्यापार के लिए लेटरहेड, कैश मेमो एवं बिल बुक।</p>
+        </div>
+
+        <div class="service-box">
+            <h3>📢 फ्लेक्स एवं बैनर</h3>
+            <p>सभी प्रकार के फ्लेक्स, पोस्टर एवं बैनर डिजाइन एवं प्रिंटिंग।</p>
+        </div>
+
+        <div class="service-box">
+            <h3>📚 पंपलेट एवं ब्रोशर</h3>
+            <p>प्रचार हेतु पंपलेट, ब्रोशर एवं हैंडबिल प्रिंटिंग।</p>
+        </div>
+
+    </div>
+</section>
+
+<style>
+.printing-services{
+    padding:20px 20px;
+    background:#f5f8ff;
+    text-align:center;
+}
+
+.printing-services h2{
+    color:#004AAD;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.service-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(2,1fr));
+    gap:20px;
+}
+
+.service-box{
+    background:#fff;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.service-box:hover{
+    transform:translateY(-5px);
+}
+
+.service-box h3{
+    color:#FF7A00;
+    margin-bottom:10px;
+}
+
+.service-box p{
+    color:#555;
+    line-height:1.6;
+}
+</style>
+
+<section class="section" id="gallery">
+
+<h2>Photo Gallery</h2>
+
+<div class="gallery">
+
+<img src=" /C:\Users\admin\OneDrive\Desktop\ChatGPT Image Apr 16, 2026, 10_34_15 PM.png" alt="PAN Card">
+
+<img src=" /C:\Users\admin\OneDrive\Desktop\ChatGPT Image Apr 16, 2026, 10_42_19 PM.png" alt="Aadhaar Update">
+
+<img src=" /C:\Users\admin\OneDrive\Desktop\ChatGPT Image Apr 19, 2026, 10_23_45 AM.png" alt="E-Shram">
+
+<img src=" /C:\Users\admin\OneDrive\Desktop\ChatGPT Image May 3, 2026, 12_04_51 PM.png" alt="Rojgar Sangam">
+
+<img src=" /C:\Users\admin\OneDrive\Desktop\ChatGPT Image May 3, 2026, 12_04_51 PM.png" alt="Fino Bank">
+
+<img src=" /C:\Users\admin\OneDrive\Desktop\ChatGPT Image Apr 26, 2026, 03_35_11 PM.png" alt="Office">
+
+</div>
+
+</section>
+
+<section class="section" id="notice">
+<h2>Notice Board</h2>
+
+<div class="notice">Government Schemes Updates</div>
+<div class="notice">Scholarship Updates</div>
+<div class="notice">Job Notifications</div>
+<div class="notice">PM Kisan Updates</div>
+
+</section>
+
+
+<a class="callbtn" href="tel:9984892174">📞</a>
+
+<a class="whatsapp"
+href="https://wa.me/919984892174"
+target="_blank">💬</a>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+<!-- Instagram Floating Icon -->
+<a href="https://www.instagram.com/guru_ji_welcome?igsh=bGlrbHVvdHJjZmwy"
+   target="_blank"
+   class="instagram-float">
+    <i class="fab fa-instagram"></i>
+</a>
+
+<style>
+.instagram-float{
+    position:fixed;
+    right:20px;
+    bottom:90px;
+    width:60px;
+    height:60px;
+    background:linear-gradient(45deg,#f09433,#e6683c,#dc2743,#cc2366,#bc1888);
+    color:#fff;
+    border-radius:50%;
+    text-align:center;
+    line-height:60px;
+    font-size:30px;
+    z-index:9999;
+    box-shadow:0 4px 10px rgba(0,0,0,0.3);
+    transition:0.3s;
+}
+
+.instagram-float:hover{
+    transform:scale(1.1);
+    color:#fff;
+}
+<style>
+.instagram-float:hover{
+    transform:scale(1.1);
+    color:#fff;
+}
+</style>
+
+<footer>
+    <h3>ABHI COMPUTERS & SAHAJ JAN SEWA KENDRA</h3>
+
+    <p>
+        📍 Near Sita Indian Gas Agency,<br>
+        Sanstha Market, Kakrahi, Sitapur
+    </p>
+
+    <p>📞 Mobile: 9984892174</p>
+
+    <p>💬 WhatsApp: 9984892174</p>
+
+    <p>© 2026 All Rights Reserved</p>
+	</footer>
+	<footer>
+	<a href="https://abhishek-24251592.github.io/nameadd-abhi/" target="_blank" class="btn">
+     Form भरें
+</a>
+<h2> अधिक जानकारी के लिए फॉर्म भरे धन्यवाद </h2>
+
+<style>
+.btn{
+    background:#004AAD;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    display:inline-block;
+}
+</style>
+
+</footer>
+<footer>
+<h1> जो मेरा Instagram को follow करके आयेगा उसको 20% का डिस्काउंट मिलेगा </h1>
+<style>
+.btn{
+    background:#004AAD;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    display:inline-block;
+}
+</style>
+</footer>
+
+<footer>
+<h1> मेरे वेबसाइट पर आने के लिये धन्यवाद Contact number 9984892174 , 7052740142 </h1>
+<style>
+.btn{
+    background:#004AAD;
+    color:white;
+    padding:10px 20px;
+    text-decoration:none;
+    border-radius:5px;
+    display:inline-block;
+}
+</style>
+</footer>
+</body> 
+
+</style>
+</html>
